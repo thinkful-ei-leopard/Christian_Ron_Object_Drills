@@ -23,61 +23,14 @@ function createCharacter(name, nickname, race, origin, attack, defense) {
     }
 }
 
-const characters = [createCharacter('Gandalf the White', 'gandalf', 'Wizard', 'Middle Earth', 10, 6)];
-// const characters = [
-//     {
-//         name: 'Gandalf the White',
-//         nickname: 'gandalf',
-//         race: 'Wizard',
-//         origin: 'Middle Earth',
-//         attack: 10,
-//         defense: 6
-//     },
-//     {
-//         name: 'Bilbo Baggins',
-//         nickname: 'bilbo',
-//         race: 'Hobbit',
-//         origin: 'The Shire',
-//         attack: 2,
-//         defense: 1
-//     },
-//     {
-//         name: 'Frodo Baggins',
-//         nickname: 'frodo',
-//         race: 'Hobbit',
-//         origin: 'The Shire',
-//         attack: 3,
-//         defense: 2
-//     },
-//     {
-//         name: 'Aragorn son of Arathorn',
-//         nickname: 'aragorn',
-//         race: 'Man',
-//         origin: 'Dunnedain',
-//         attack: 6,
-//         defense: 8
-//     },
-//     {
-//         name: 'Legolas',
-//         nickname: 'legolas',
-//         race: 'Elf',
-//         origin: 'Woodland Realm',
-//         attack: 8,
-//         defense: 5
-//     },
-//     {
-//         name: 'Arwen Undomiel',
-//         nickname: 'elfie',
-//         race: 'Half-Elf',
-//         origin: 'Rivendell',
-//         attack: 12,
-//         defense: 22
-//     },
-// ];
+const characters = [createCharacter('Gandalf the White', 'gandalf', 'Wizard', 'Middle Earth', 10, 6),
+                    createCharacter('Bilbo Baggins', 'biblo', 'Hobbit', 'The Shire', 2, 1),
+                    createCharacter('Frodo Baggins', 'frodo', 'Hobbit', 'The Shire', 3, 2),
+                    createCharacter('Aragon son of Arathorn', 'aragon', 'Man', 'Dunnedain', 6, 8),
+                    createCharacter('Legolas', 'legolas', 'Elf', 'Wooland realm', 8, 5),
+                    createCharacter('Arwen Undomiel', 'elfie', 'Half-elf', 'Rivendell', 12, 22),
+                    ];
 
-// characters.forEach(item => {
-//     characters[item] = createCharacter(item);
-// });
 console.log(characters);
 
 // const frodo = createCharacter('Frodo', 'froyo', 'hobbit', 'the shire', 220, 10);
